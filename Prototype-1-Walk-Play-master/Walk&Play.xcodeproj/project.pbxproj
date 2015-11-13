@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC1C1F618F61FA600E462DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1C1F518F61FA600E462DE /* UIKit.framework */; };
+		CEC1C1F818F61FA600E462DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1C1F718F61FA600E462DE /* Foundation.framework */; };
+		CEC1C1FA18F61FA600E462DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1C1F918F61FA600E462DE /* CoreGraphics.framework */; };
+		CEC1C20018F61FA600E462DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC1C1FE18F61FA600E462DE /* InfoPlist.strings */; };
+		CEC1C20218F61FA600E462DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1C20118F61FA600E462DE /* main.m */; };
+		CEC1C20618F61FA600E462DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1C20518F61FA600E462DE /* AppDelegate.m */; };
+		CEC1C20918F61FA600E462DE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC1C20718F61FA600E462DE /* MainStoryboard.storyboard */; };
+		CEC1C20C18F61FA600E462DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1C20B18F61FA600E462DE /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEC1C1F118F61FA600E462DE /* Walk&Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Walk&Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC1C1F518F61FA600E462DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEC1C1F718F61FA600E462DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEC1C1F918F61FA600E462DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEC1C1FD18F61FA600E462DE /* Walk&Play-Info.plist */ = {isa = PBXFileReference; path = "Walk&Play-Info.plist"; sourceTree = "<group>"; };
+		CEC1C1FF18F61FA600E462DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC1C20118F61FA600E462DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC1C20318F61FA600E462DE /* Walk&Play-Prefix.pch */ = {isa = PBXFileReference; path = "Walk&Play-Prefix.pch"; sourceTree = "<group>"; };
+		CEC1C20418F61FA600E462DE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC1C20518F61FA600E462DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC1C20818F61FA600E462DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CEC1C20A18F61FA600E462DE /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CEC1C20B18F61FA600E462DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC1C1EE18F61FA600E462DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1C1F618F61FA600E462DE /* UIKit.framework in Frameworks */,
+				CEC1C1F818F61FA600E462DE /* Foundation.framework in Frameworks */,
+				CEC1C1FA18F61FA600E462DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC1C1E618F61FA600E462DE = {
+			isa = PBXGroup;
+			children = (
+				CEC1C1FB18F61FA600E462DE /* Walk&Play */,
+				CEC1C1F418F61FA600E462DE /* Frameworks */,
+				CEC1C1F218F61FA600E462DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC1C1F218F61FA600E462DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1C1F118F61FA600E462DE /* Walk&Play.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC1C1F418F61FA600E462DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1C1F518F61FA600E462DE /* UIKit.framework */,
+				CEC1C1F718F61FA600E462DE /* Foundation.framework */,
+				CEC1C1F918F61FA600E462DE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC1C1FB18F61FA600E462DE /* Walk&Play */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1C20418F61FA600E462DE /* AppDelegate.h */,
+				CEC1C20518F61FA600E462DE /* AppDelegate.m */,
+				CEC1C20718F61FA600E462DE /* MainStoryboard.storyboard */,
+				CEC1C20A18F61FA600E462DE /* ViewController.h */,
+				CEC1C20B18F61FA600E462DE /* ViewController.m */,
+				CEC1C1FC18F61FA600E462DE /* Supporting Files */,
+			);
+			path = "Walk&Play";
+			sourceTree = "<group>";
+		};
+		CEC1C1FC18F61FA600E462DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1C1FD18F61FA600E462DE /* Walk&Play-Info.plist */,
+				CEC1C1FE18F61FA600E462DE /* InfoPlist.strings */,
+				CEC1C20118F61FA600E462DE /* main.m */,
+				CEC1C20318F61FA600E462DE /* Walk&Play-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC1C1F018F61FA600E462DE /* Walk&Play */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC1C20F18F61FA600E462DE /* Build configuration list for PBXNativeTarget "Walk&Play" */;
+			buildPhases = (
+				CEC1C1ED18F61FA600E462DE /* Sources */,
+				CEC1C1EE18F61FA600E462DE /* Frameworks */,
+				CEC1C1EF18F61FA600E462DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Walk&Play";
+			productName = "Walk&Play";
+			productReference = CEC1C1F118F61FA600E462DE /* Walk&Play.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC1C1E818F61FA600E462DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CEC1C1EB18F61FA600E462DE /* Build configuration list for PBXProject "Walk&Play" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEC1C1E618F61FA600E462DE;
+			productRefGroup = CEC1C1F218F61FA600E462DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC1C1F018F61FA600E462DE /* Walk&Play */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC1C1EF18F61FA600E462DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1C20018F61FA600E462DE /* InfoPlist.strings in Resources */,
+				CEC1C20918F61FA600E462DE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC1C1ED18F61FA600E462DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC1C20218F61FA600E462DE /* main.m in Sources */,
+				CEC1C20618F61FA600E462DE /* AppDelegate.m in Sources */,
+				CEC1C20C18F61FA600E462DE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEC1C1FE18F61FA600E462DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC1C1FF18F61FA600E462DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEC1C20718F61FA600E462DE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC1C20818F61FA600E462DE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC1C20D18F61FA600E462DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEC1C20E18F61FA600E462DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC1C21018F61FA600E462DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Walk&Play/Walk&Play-Prefix.pch";
+				INFOPLIST_FILE = "Walk&Play/Walk&Play-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEC1C21118F61FA600E462DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Walk&Play/Walk&Play-Prefix.pch";
+				INFOPLIST_FILE = "Walk&Play/Walk&Play-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC1C1EB18F61FA600E462DE /* Build configuration list for PBXProject "Walk&Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC1C20D18F61FA600E462DE /* Debug */,
+				CEC1C20E18F61FA600E462DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC1C20F18F61FA600E462DE /* Build configuration list for PBXNativeTarget "Walk&Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC1C21018F61FA600E462DE /* Debug */,
+				CEC1C21118F61FA600E462DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC1C1E818F61FA600E462DE /* Project object */;
+}
