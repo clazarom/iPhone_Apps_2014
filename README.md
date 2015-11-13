@@ -1,5 +1,6 @@
 # iPhone_Apps_2014
-iPhone applications developed during Spring 2014
+iPhone applications developed during Spring 2014.
+Objective-C code
 
 ##Contains
 - MP1: simple unit converter
