@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Level1</key>
+	<array>
+		<string>1</string>
+		<integer>0</integer>
+		<string>100</string>
+	</array>
+	<key>Level2</key>
+	<array>
+		<string>2</string>
+		<integer>100</integer>
+		<string>300</string>
+	</array>
+	<key>Level3</key>
+	<array>
+		<string>3</string>
+		<integer>300</integer>
+		<string>700</string>
+	</array>
+	<key>Level4</key>
+	<array>
+		<string>4</string>
+		<integer>700</integer>
+		<string>1600</string>
+	</array>
+</dict>
+</plist>
