@@ -1,7 +1,7 @@
 MP3/4
 ====
 ##Connect 4 games
-using Parse.
+Using Parse.
 
 Games between two different users, at different times (it also stores the finished games as "won" or "lost").
 One player can:
